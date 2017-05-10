@@ -1,6 +1,9 @@
+body {
+    font-family: sans-serif;
+}
+
 h1,
 h2 {
-    font-family: sans-serif;
     color: gray;
 }
 
@@ -10,5 +13,8 @@ h1 {
 
 p {
     color: maroon;
-    font-family: sans-serif;
+}
+
+em {
+    font-family: serif;
 }
