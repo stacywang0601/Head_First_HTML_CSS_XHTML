@@ -22,18 +22,32 @@
         <!--
     1.You could use the width and height attributes to resize an image, but that’s not a good idea. Because if you do that, you’re still downloading the full-size image, and making the browser do the work to resize the image 
     The width and height attributes are really there to help the browser figure out how much space to reserve for the image; if you use them, they should match the actual width and height of the image.
-    2.alt : If the image can’t be displayed, then this text is used in its place.-->
-        <img src="thumbnails/seattle_med.jpg" alt="My iPod in Seattle, WA">
-        <img src="thumbnails/seattle_shuffle.jpg" alt="An iPod Shuffle in Seattle, WA">
-        <img src="thumbnails/seattle_downtown.jpg" alt="An iPod in downtown Seattle, WA">
+    2.alt : If the image can’t be displayed, then this text is used in its place.
+    3. the <img> element is an inline element.So, if there are several images together in your HTML, the
+    browser will fit them side by side if the browser window is wide enough.
+    4. make links out of images, add <a>-->
+        <a href="html/seattle_med.html">
+            <img src="thumbnails/seattle_med.jpg" alt="My iPod in Seattle, WA">
+        </a>
+        <a href="html/seattle_shuffle.html">
+            <img src="thumbnails/seattle_shuffle.jpg" alt="An iPod Shuffle in Seattle, WA">
+        </a>
+        <a href="html/seattle_downtown.html">
+            <img src="thumbnails/seattle_downtown.jpg" alt="An iPod in downtown Seattle, WA">
+        </a>
     </p>
     <h2>Birmingham, England</h2>
     <p>
         Here are some iPod photos around Birmingham. We’ve obviously got some passionate folks over here who love their iPods. Check out the classic red British telephone box!
     </p>
     <p>
-        <img src="thumbnails/britain.jpg" alt="An iPod in Birmingham at a telephone box">
-        <img src= "thumbnails/applestore.jpg" alt="An iPod at the Birmingham Apple store">
+        <!-- you could link directly to the image, like this: <a href=“photos/seattle_downtown.jpg”> ... </a>. If you did that and clicked on the link, the browser would display the image by itself on a blank page. In general though, linking directly to an image is considered bad form, because you usually want to provide some context for the images you are displaying.-->
+        <a href="html/britain.html">
+            <img src="thumbnails/britain.jpg" alt="An iPod in Birmingham at a telephone box">
+        </a>
+        <a href="html/applestore.html">
+            <img src="thumbnails/applestore.jpg" alt="An iPod at the Birmingham Apple store">
+        </a>
     </p>
 </body>
 
