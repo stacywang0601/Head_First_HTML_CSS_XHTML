@@ -42,6 +42,8 @@ p.blueberry {
     border-color: black;
     border-width: 1px;
     border-style: solid;
+    border-style: dashed;
+    border-color: white;
     background-color: #a7cece;
     padding: 25px;
     padding-left: 80px;
