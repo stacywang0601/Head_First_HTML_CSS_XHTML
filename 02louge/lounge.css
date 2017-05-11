@@ -39,12 +39,8 @@ p.blueberry {
 }
 
 #guarantee {
-    border-color: black;
-    border-width: 1px;
-    border-style: solid;
-    border-style: dashed;
-    border-color: white;
-    background-color: #a7cece;
+    /**no , between each rule*/
+    border: white 1px dashed;
     padding: 25px;
     padding-left: 80px;
     margin: 30px;
@@ -53,23 +49,18 @@ p.blueberry {
     font-style: italic;
     color: #444444;
     font-family: Georgia, "Times New Roman", Times, serif;
-    background-image: url(images/background.gif);
-    background-repeat: no-repeat;
-    background-position: top left;
+    background: #a7cece url(images/background.gif) no-repeat top left;
 }
 
 #elixirs {
-    border-width: thin;
-    border-style: solid;
-    border-color: #007e7e;
+    /**any order*/
+    border: thin solid #007e7e;
     width: 200px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    /**clockwise*/
+    padding: 0px 20px 20px 20px;
     margin-left: 20px;
     text-align: center;
-    background-image: url(images/cocktail.gif);
-    background-repeat: repeat-x;
+    background: url(images/cocktail.gif) repeat-x;
     /**have a line-height
 ￼￼￼￼of 1 times its own font-size, rather than the font-size of the elixirs <div>.*/
     line-height: 1;
