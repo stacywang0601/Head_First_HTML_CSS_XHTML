@@ -64,6 +64,7 @@ p.blueberry {
     /**have a line-height
 ￼￼￼￼of 1 times its own font-size, rather than the font-size of the elixirs <div>.*/
     line-height: 1;
+    float: right;
 }
 
 #elixirs h2 {
@@ -90,7 +91,7 @@ p.blueberry {
     color: #0d5353;
 }
 
-#copyright {
+#footer {
     font-size: 50%;
     text-align: center;
     line-height: normal;
