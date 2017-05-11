@@ -34,6 +34,8 @@ body {
     padding: 15px;
     margin: 10px;
     font-size: 90%;
+    /*no floating content is allowed on the right of the footer.*/
+    clear: right;
 }
 
 h1 {
