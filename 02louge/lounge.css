@@ -70,4 +70,15 @@ p.blueberry {
     text-align: center;
     background-image: url(images/cocktail.gif);
     background-repeat: repeat-x;
+    /**have a line-height
+￼￼￼￼of 1 times its own font-size, rather than the font-size of the elixirs <div>.*/
+    line-height: 1;
+}
+
+#elixirs h2 {
+    color: black;
+}
+
+#elixirs h3 {
+    color: #d12c47;
 }
