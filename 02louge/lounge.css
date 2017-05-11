@@ -74,6 +74,22 @@ p.blueberry {
     color: #d12c47;
 }
 
+#elixirs a:link {
+    color: #007e7e;
+}
+
+#elixirs a:visited {
+    color: #333333;
+}
+
+
+/**changing the background to red. This makes the link look highlighted when you pass the mouse over it*/
+
+#elixirs a:hover {
+    background: #f88396;
+    color: #0d5353;
+}
+
 #copyright {
     font-size: 50%;
     text-align: center;
