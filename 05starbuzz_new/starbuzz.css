@@ -15,6 +15,7 @@ body {
     position: absolute;
     top: 30px;
     left: 365px;
+    z-index: 99;
 }
 
 #main {
