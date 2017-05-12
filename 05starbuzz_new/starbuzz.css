@@ -34,7 +34,7 @@ body {
     color: #efe5d0;
     text-align: center;
     padding: 15px;
-    margin: 10px;
+    margin: 10px 330px 10px 10px;
     font-size: 90%;
     /*no floating content is allowed on the right of the footer.*/
     clear: right;
