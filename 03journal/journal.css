@@ -48,3 +48,11 @@ caption {
 .right {
     text-align: right;
 }
+
+th {
+    background-color: #cc6600;
+}
+
+.cellcolor {
+    background-color: #fcba7a;
+}
