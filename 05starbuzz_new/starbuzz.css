@@ -80,7 +80,7 @@ a:visited {
 #coupon {
     position: fixed;
     top: 300px;
-    left: 100px;
+    left: -90px;
 }
 
 #coupon img {
