@@ -25,6 +25,12 @@
             <br/>
             <input type="radio" name="beantype" value="ground" /> Ground
         </p>
+        <p>Extras:
+            <br/>
+            <input type="checkbox" name="extras[]" value="giftwrap" /> Gift wrap
+            <br/>
+            <input type="checkbox" name="extras[]" value="catalog" checked="checked" /> Include catalog with order
+        </p>
         <p>Ship to:
             <br/> Name:
             <input type="text" name="name" />
@@ -36,7 +42,10 @@
             <input type="text" name="state" />
             <br/> Zip:
             <input type="text" name="zip" />
+        </p>
+        <p>Customer Comments :
             <br/>
+            <textarea name="commetns" rows="10" cols="48"></textarea>
         </p>
         <p>
             <input type="submit" value="Order Now">
